@@ -2,5 +2,6 @@
     "search.useGlobalIgnoreFiles": false,
     "search.useParentIgnoreFiles": false,
     "search.useIgnoreFiles": false,
-    "application.experimental.rendererProfiling": false
+    "application.experimental.rendererProfiling": false,
+    "python.linting.enabled": true
 }
