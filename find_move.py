@@ -2,8 +2,8 @@ import os
 import shutil
 
 # Specify the paths
-source_folder = '/mnt/e/vids'
-target_folder = '/mnt/e/ffmpeg/media'
+source_folder = '/mnt/e/property/'
+target_folder = '/mnt/d/property_out/'
 
 # Keyword to search for
 keyword = input('partial file name: ') # Change the keyword to lowercase for case-insensitive comparison
@@ -19,3 +19,4 @@ for root, dirs, files in os.walk(source_folder):
             target_path = os.path.join(target_folder, file)
             shutil.move(source_path, target_path)
             print(f"Moved {file} to {target_folder}")
+        

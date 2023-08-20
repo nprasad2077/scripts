@@ -8,7 +8,9 @@ This project is a Python script that moves files from a source directory to a ta
 3. `.\venv\Scripts\activate` using powershell
 4. Specify the paths for the source folder and target folder in the variables `source_folder` and `target_folder` respectively.
 5. Set the keyword to search for in the variable `keyword`. The script will move any files that contain the keyword in their filename, regardless of case (case-insensitive comparison).
-6. Run the script.
+6. To activate this project's virtualenv, run pipenv shell.
+7. Alternatively, run a command inside the virtualenv with pipenv run.
+8. Run the script.
 
 
 ## Functionality
@@ -17,3 +19,5 @@ The script walks through the source folder and its subdirectories, searching for
 Note: The script assumes that the source folder and target folder paths are valid and accessible.
 
 Feel free to modify this script according to your specific requirements or incorporate it into your own projects.
+
+
