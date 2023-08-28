@@ -3,7 +3,14 @@
 This project is a Python script that moves files from a source directory to a target directory, based on a specified keyword. The script uses the `os` and `shutil` libraries to perform file operations.
 
 ## Usage
-1. Enter virtual environment - 
+
+1. Install pipenv if you do not have it already. `pip install pipenv`
+2. Run this command in root directory `pipenv install`. This creates the virtual env and installs the dependencies.
+3. Activate the pip env with `pipenv shell`.
+
+## Usage
+
+1. Enter virtual environment -
 2. `source .venv/bin/activate` on linux/macos
 3. `.\venv\Scripts\activate` using powershell
 4. Specify the paths for the source folder and target folder in the variables `source_folder` and `target_folder` respectively.
@@ -12,12 +19,10 @@ This project is a Python script that moves files from a source directory to a ta
 7. Alternatively, run a command inside the virtualenv with pipenv run.
 8. Run the script.
 
-
 ## Functionality
+
 The script walks through the source folder and its subdirectories, searching for files that contain the specified keyword in their filename. When a matching file is found, it is moved to the target folder using `shutil.move()`. The script also prints a message indicating the file that was moved and the target folder it was moved to.
 
 Note: The script assumes that the source folder and target folder paths are valid and accessible.
 
 Feel free to modify this script according to your specific requirements or incorporate it into your own projects.
-
-
