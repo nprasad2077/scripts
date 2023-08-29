@@ -3,7 +3,8 @@ import shutil
 from colorama import init, Fore, Style
 
 init()
-print(Fore.GREEN + "Change to green text.")
+print(Fore.GREEN + "Change to green text for move.")
+
 
 def move_videos(source_dir, dest_dir):
     for root, dirs, files in os.walk(source_dir):
@@ -16,7 +17,18 @@ def move_videos(source_dir, dest_dir):
                 shutil.move(source_path, dest_path)
                 print(f"Moved {file} to {dest_dir}")
 
+
 # Example usage
 source_directory = "/Users/ravi/Downloads/test"
 destination_directory = "/Users/ravi/Downloads/out_test"
+
+# # Uncomment to enable directory input
+# source_directory_input = input("Enter src directory: ")
+# destination_directory_input = input("Enter the dest directory: ")
+# format_source_input = str(source_directory_input)
+# format_dest_input = str(destination_directory_input)
+# move_videos(format_source_input, format_dest_input)
+
 move_videos(source_directory, destination_directory)
+
+print(Fore.MAGENTA + 'COMPLETE.')

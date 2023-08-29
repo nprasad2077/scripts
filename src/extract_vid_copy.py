@@ -3,7 +3,7 @@ import shutil
 from colorama import init, Fore, Style
 
 init()
-print(Fore.BLUE + "Change to blue text.")
+print(Fore.BLUE + "Change to blue text for copy.")
 
 def move_videos(source_dir, dest_dir):
     for root, dirs, files in os.walk(source_dir):
@@ -20,3 +20,5 @@ def move_videos(source_dir, dest_dir):
 source_directory = "/Users/ravi/Downloads/test"
 destination_directory = "/Users/ravi/Downloads/out_test_copy"
 move_videos(source_directory, destination_directory)
+
+print(Fore.MAGENTA + 'COMPLETE.')
