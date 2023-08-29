@@ -1,5 +1,9 @@
 import os
 import shutil
+from colorama import init, Fore, Style
+
+init()
+print(Fore.GREEN + "Change to green text.")
 
 def move_videos(source_dir, dest_dir):
     for root, dirs, files in os.walk(source_dir):
