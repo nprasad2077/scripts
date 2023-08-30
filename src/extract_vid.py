@@ -19,8 +19,8 @@ def move_videos(source_dir, dest_dir):
 
 
 # Example usage
-source_directory = "/Users/ravi/Downloads/test"
-destination_directory = "/Users/ravi/Downloads/out_test"
+source_directory = "/e/property2"
+destination_directory = "/e/property_convert"
 
 # # Uncomment to enable directory input
 # source_directory_input = input("Enter src directory: ")
