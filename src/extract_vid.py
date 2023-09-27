@@ -19,8 +19,8 @@ def move_videos(source_dir, dest_dir):
 
 
 # Example usage
-source_directory = "/e/test"
-destination_directory = "/e/test"
+source_directory = "/e/trans"
+destination_directory = "/e/trans"
 
 # # Uncomment to enable directory input
 # source_directory_input = input("Enter src directory: ")
@@ -31,4 +31,4 @@ destination_directory = "/e/test"
 
 move_videos(source_directory, destination_directory)
 
-print(Fore.MAGENTA + 'COMPLETE.')
+print(Fore.MAGENTA + "COMPLETE.")

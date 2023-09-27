@@ -22,5 +22,5 @@ def move_all_files_and_folders(src_dir, dest_dir):
 
 if __name__ == "__main__":
     source_directory = "/e/convert"
-    destination_directory = "/f/Convert/convert"
+    destination_directory = "/b/Convert/torrent"
     move_all_files_and_folders(source_directory, destination_directory)
