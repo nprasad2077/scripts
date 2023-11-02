@@ -21,6 +21,6 @@ def move_all_files_and_folders(src_dir, dest_dir):
         print(f"Moved {src_item_path} to {dest_item_path}")
 
 if __name__ == "__main__":
-    source_directory = "/e/qbit"
-    destination_directory = "/b/Convert/torrent"
+    source_directory = "/i/josephine jackson"
+    destination_directory = "/e/transfer"
     move_all_files_and_folders(source_directory, destination_directory)

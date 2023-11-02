@@ -9,7 +9,7 @@ print(Fore.GREEN + "Change to green text for move.")
 def move_videos(source_dir, dest_dir):
     for root, dirs, files in os.walk(source_dir):
         for file in files:
-            if file.endswith((".mp4", ".mov", ".mkv", ".ts" "m4v")):
+            if file.endswith((".mp4", ".mov", ".mkv", ".ts", ".m4v", ".gba")):
                 source_path = os.path.join(root, file)
                 dest_path = os.path.join(dest_dir, file)
                 # The shutil.copy2 preserves both the file contents and metadata (such as timestamps) during the copy.
@@ -19,8 +19,8 @@ def move_videos(source_dir, dest_dir):
 
 
 # Example usage
-source_directory = "/e/trans"
-destination_directory = "/e/trans"
+source_directory = "/e/qb_dl_3"
+destination_directory = "/e/qb_dl_3"
 
 # # Uncomment to enable directory input
 # source_directory_input = input("Enter src directory: ")

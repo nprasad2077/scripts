@@ -21,6 +21,6 @@ def move_all_files_and_folders(src_dir, dest_dir):
         print(f"Moved {src_item_path} to {dest_item_path}")
 
 if __name__ == "__main__":
-    source_directory = "/home/ravi/gangs/Downloads/Video"
-    destination_directory = "/home/ravi/gangs/Downloads/reality"
+    source_directory = "/e/transfer"
+    destination_directory = "/e/transfer"
     move_all_files_and_folders(source_directory, destination_directory)
