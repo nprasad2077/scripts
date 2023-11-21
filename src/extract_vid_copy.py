@@ -17,8 +17,8 @@ def move_videos(source_dir, dest_dir):
                 print(f"Copied {file} to {dest_dir}")
 
 # Example usage
-source_directory = "/e/finish"
-destination_directory = "/e/extract"
+source_directory = "/j/test"
+destination_directory = "/j/test"
 move_videos(source_directory, destination_directory)
 
 print(Fore.MAGENTA + 'COMPLETE.')
